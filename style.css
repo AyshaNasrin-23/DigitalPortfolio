@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url('imgs/2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    width:100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+  
+    width:84%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+
+   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+.logo{
+    border-image: round;
+    width: 150px;
+    height: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:beige;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: orangered;
+}
+.info{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.info h1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+.info p{
+    color: aliceblue;
+    line-height: 22px;
+}
+span{
+    color: orangered;
+}
+.info a{
+    background: orangered;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color :aliceblue;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+}
+.profile{
+    width: 400px;
+    height:400px;
+    position: absolute;
+    bottom: 80px;
+    right:150px;
+    border-radius: 50%;
+}
+section{
+    height: 100vh;
+    border-color: orangered;
+    border-style: groove;
+    padding: auto;
+    border-radius: 50px;
+   
+}
+.details h2{
+    padding: 30px;
+    color:orangered;
+    text-align: left;
+    font-size: xx-large;
+ }
+.details p{
+    background-color: rgb(203, 216, 129);
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+
+    display: flex;
+    justify-content: right;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: justify;
+    font-size: 30px;
+    right:150px
+}
+.skills h2{
+    padding: 30px;
+    color:orangered;
+    text-align: left;
+    font-size: xx-large;
+}
+.skills ul {
+    list-style-type: circle;
+    left: 150px;
+    color: black;
+    font-size: x-large;
+    background-color: rgb(203, 216, 129);
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    
+}
+.phone h2{
+    padding: 50px;
+    color:orangered;
+    text-align: left;
+    font-size: xx-large;
+}
+#form{
+    background-color: rgb(203, 216, 129);
+    border-radius: 20px;
+    padding: 30px;
+  position:absolute;
+  left:500px;
+  font-family: 'Times New Roman';
+  margin-top: 10px;
+}
+input[type=text],[type=email]{
+    width:100%;
+    padding: 10px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+
+}
+input[type=submit]{
+    width:100%;
+    background-color: orangered;
+   padding: 14px 20px;
+   margin:20px 0 ;
+   cursor:pointer;
+}
+
+
+.inputform{
+    color:black;
+}
+.anchor{
+    left:90%;
+    display: inline-block;
+     padding: 5px;
+    border-radius: 30px;
+    position: absolute;
+    border-style: groove;
+    text-decoration: none;
+   color:orangered;
+   font-weight: bold;
+}
